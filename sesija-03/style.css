@@ -1,0 +1,23 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: blue;
+    
+}
+p {
+    color: yellow;
+}
+
+#cetvrti{
+    color: blue;
+}
+
+.lepa-crvena-boja{
+    color: red;
+    font-weight: 600;
+}
+ul {
+    list-style-image: url('images/starsolid.gif');
+    list-style-type: circle;
+}
