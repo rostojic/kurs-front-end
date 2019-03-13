@@ -1,0 +1,14 @@
+body {
+    text-align:center;
+    
+  }
+  img {
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    margin: 100px auto 20px auto;
+  }
+
+  button {
+    padding:5px 25px; 
+  }
