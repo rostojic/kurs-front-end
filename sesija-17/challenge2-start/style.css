@@ -1,0 +1,27 @@
+html {
+    font-family: sans-serif;
+  }
+  
+body {
+  text-align: center;
+}
+
+.container {
+  
+  margin: 2px;
+  font-size: xx-large;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.spanNumber {
+  width: 100px;
+  margin: 3px;
+  line-height: 100px;
+  border: 2px solid green;
+  background-color: bisque;
+}
+  caption {
+    padding: 10px;
+  }
