@@ -1,0 +1,27 @@
+html {
+    font-family: sans-serif;
+  }
+  
+body {
+  text-align: center;
+}
+
+.container {
+  
+  margin: 2px;
+  font-size: ??;
+  display: ??;
+  flex-flow: ??;
+  justify-content: ??;
+}
+
+.spanNumber {
+  width: ??;
+  margin: ??;
+  line-height: ??;
+  border: 2px solid green;
+  background-color: bisque;
+}
+  caption {
+    padding: 10px;
+  }
