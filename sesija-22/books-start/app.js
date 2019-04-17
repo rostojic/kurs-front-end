@@ -96,5 +96,17 @@ var  books = [
         cover: "https://i.ebayimg.com/images/g/LBwAAOSwXCVcb1rk/s-l500.jpg"
       }
     ];
-  var cikaRadeEmail = 'r_ostojic@hotmail.com';
+  var cikaRadeEmail1 = 'r_ostojic@hotmail.com';
+  var cikaRadeEmail2 = 'rostojic@gmail.com';
   
+  console.log(cikaRadeEmail1);
+  console.log(cikaRadeEmail2);
+
+
+
+  var points = [40, 100, 1, 5, 25, 10];
+  var nizSort = points.sort();
+  console.log(nizSort);
+
+//Sort numbers in an array in ascending order:h   
+points.sort(function(a, b){return a-b});
