@@ -1,0 +1,66 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #6c2db0;
+    text-align: center;
+}
+header img{
+    margin: 50px 0 50px 0;
+}
+h1{
+    text-align: center;
+    margin: 75px 0 75px 0;
+}
+.book-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    /* border:2px solid #6c2db0; */
+    /* background-color: #ebebeb; */
+}
+.book img{
+    width: 100px;
+    padding: 20px ;
+}
+.book{
+    padding: 0 50px 0 50px;
+    border: 2px solid #6c2db0;  
+}
+.book p{
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(29, 0, 43);
+    margin-top: 20px;
+}
+.btn{
+    display: inline-block;
+    background-color: #6c2db0;
+    color: white;
+    padding: 10px;
+    margin: 10px 0 20px 0 ;
+    border-radius: 7px;
+}
+/* ==========================^^^DODATNI STILOVI^^^ANIMACIJE========================= */
+
+
+/* .btn:hover{
+    transition: 300ms;
+    background-color: rgb(201, 2, 2);
+}
+.book img:hover{
+    transform: scale(1.2);
+    transition: 700ms;
+}
+.book:hover{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    transition: 600ms;
+} */
