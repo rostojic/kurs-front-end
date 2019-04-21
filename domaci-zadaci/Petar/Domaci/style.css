@@ -1,0 +1,55 @@
+.main-wrap{
+    display: flex;
+}
+#header {
+    display: flex;
+    background-color: cornflowerblue;
+    height: 30px;
+    padding: 15px;
+}
+#trazi {
+   
+   margin-left: 5px; 
+}
+h1{
+    border: solid black 2px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 10px;
+    height: 45px;
+}
+
+.book img{
+    width: 300px;
+    padding: 20px ;
+    border: solid black 1px;
+}
+.book{
+    border: solid blue;
+    padding: 20px;
+    margin: 5px;
+    
+    
+}
+#sort{
+   text-align: end;
+   margin-left: 10px;
+}
+.book-container{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+footer{
+    height: 50px;
+}
+
+#sortPage {
+    margin-left: 10px; 
+}
+
+
+    

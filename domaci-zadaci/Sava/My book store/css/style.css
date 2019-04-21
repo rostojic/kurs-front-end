@@ -1,0 +1,162 @@
+* {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header h1 {
+
+    text-align: center;
+    margin-top: 100px;
+    font-size: 100px;
+    font-family: 'Indie Flower', cursive;
+
+    text-shadow: -20px -20px 30px rgb(255, 253, 253);
+
+   
+
+    /* animacija */
+
+      animation: pomeranjeNalevo 4s ease-in;
+
+}
+ 
+.container {
+
+display: flex;
+flex-wrap:wrap;  
+justify-content: space-evenly;
+
+
+/* animacija */
+
+    animation: pomeranjeNadesno 4s ease-in;
+
+
+}
+
+.item {
+
+
+    width: 150px;
+    margin: 50px;
+    padding: 90px;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    text-align: center;
+
+    box-shadow: 20px 20px  10px 10px rgba(0, 0, 0, 0.5);
+    
+
+}
+
+
+/* img */
+
+img {
+
+      width: 180px;
+
+    }
+
+img:hover{
+    opacity: .8;
+    
+}    
+
+/*  */
+
+
+
+.all {
+
+    font-size: 20px;
+    background-color: inherit;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.all:hover{
+
+    font-size: 30px;
+}
+
+
+
+
+
+/* dugmad */
+
+.btn {
+
+    background-color:white;
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 300px;
+    margin-bottom: 50px;
+    font-family: 'Abril Fatface', cursive;
+
+    animation: pomeranjeNalevo 4s ease-in;
+    box-shadow: 20px 20px  10px 10px rgba(0, 0, 0, 0.5);
+
+    
+  
+}
+
+.btn:hover,
+.btn:active{
+
+    background-color: #3A006F;
+    border: 2px solid white;
+    color: white;
+    transition: background-color 2s, border 0.2s, color 0.2s;
+}
+
+
+/*  */
+
+
+/* animacija */
+
+
+@keyframes pomeranjeNadesno {
+    0%{
+
+        opacity: 0;
+        transform: translateX(-100px)
+    }
+
+    50%{
+
+        transform: translateX(50px);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+
+@keyframes pomeranjeNalevo{
+
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    50%{
+        transform: translateX(-50px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
