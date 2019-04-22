@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Book store</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    </head>
+    <body>
+            
+        <header>
+            <img id="hdImg" src="bookHeader.png">
+        </header>
+        <div id="headerTitle">
+                <h1>Welcome to our JavaScript book store</h1>
+            </div>
+        <div class="topContainer">
+        <div class="sortBy">
+        <p>Sort by:
+            <select name="sorting" id="sortBtn" onchange="sortBooks()">
+                <option value="null"> select </option>
+                <option id="opt1" value="alphabelical order">Alphabelical order</option>
+                <option id="opt2" value="pageAmount">Number of pages</option>
+            </select>
+        </p>
+    </div>
+    
+
+</div>
+        <div class="bookContainer">
+        
+        <div class="book">
+            <img class="cover" src="">
+            <p class="author">Test author</p>
+            <p class="pages">599</p>
+        </div>
+
+        <div class="book">
+            <img class="cover" src="">
+            <p class="author"></p>
+            <p class="pages"></p>
+        </div>
+
+        <div class="book">
+            <img class="cover" src="">
+            <p class="author"></p>
+            <p class="pages"></p>
+        </div>
+
+        <div class="book">
+            <img class="cover" name="cover" src="">
+            <p class="author" name="author"></p>
+            <p class="pages" name="pages"></p>
+        </div>
+
+        <div class="book">
+            <img class="cover" name="cover" src="">
+            <p class="author"></p>
+            <p class="pages"></p>
+        </div>
+
+        <div class="book">
+            <img class="cover" name="cover" src="">
+            <p class="author"></p>
+            <p class="pages"></p>
+        </div>
+
+        <div class="book">
+            <img class="cover" name="cover" src="">
+            <p class="author"></p>
+            <p class="pages"></p>
+        </div>
+
+        <div class="book">
+            <img class="cover" src="">
+            <p class="author"></p>
+            <p class="pages"></p>
+        </div>
+        
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>
