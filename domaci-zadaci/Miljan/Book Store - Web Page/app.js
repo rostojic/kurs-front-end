@@ -122,7 +122,8 @@ function addToContainer(){
     container.appendChild(knjiga);
   
     var slika = document.createElement("img");
-    slika.src = "img/" + books[i].title + ".jpg";
+    // slika.src = "img/" + books[i].title + ".jpg";
+    slika.src = books[i].cover;
     knjiga.appendChild(slika);
   
     var autor = document.createElement("p")

@@ -120,7 +120,7 @@ var btnPages = document.getElementById('btn2');
 btnPages.addEventListener('click', sortByPages);
 
 var btnAZ = document.getElementById('btn3');
-btnAZ.addEventListener('click', sortByAuthor());
+btnAZ.addEventListener('click', sortByAuthor);
 
     function setBooks(){
       var divContainer = document.querySelector('.container');
